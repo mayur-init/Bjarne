@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//binary predicate or functional objects
 bool SortPredicate(const int& lhs, int& rhs){
 	return (lhs>rhs);
 }
